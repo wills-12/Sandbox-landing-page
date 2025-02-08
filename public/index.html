@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/dc26d6c0c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-gray-50 font-sans">
+    <!-- Navbar -->
+    <nav class="fixed bg-white w-full z-10 mx-auto px-10">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between py-4">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <!-- Menu Items -->
+        <div class="hidden space-x-6 md:flex">
+          <a href="#" class="text-gray-700 hover:text-green-600">Demos</a>
+          <a href="#" class="text-gray-700 hover:text-green-600">Pages</a>
+          <a href="#" class="text-gray-700 hover:text-green-600">Projects</a>
+          <a href="#" class="text-gray-700 hover:text-green-600">Blog</a>
+          <a href="#" class="text-gray-700 hover:text-green-600">Blocks</a>
+          <a href="#" class="text-gray-700 hover:text-green-600"
+            >Documentation</a
+          >
+        </div>
+        <!-- Button -->
+        <a
+          href="#"
+          class="hidden p-3 px-6 pt-2 text-white bg-green-600 rounded baseline hover:bg-green-700 md:block"
+          >Register Now</a
+        >
+
+        <!-- Hamburger Icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#">Demos</a>
+          <a href="#">Pages</a>
+          <a href="#">Projects</a>
+          <a href="#">Blog</a>
+          <a href="#">Blocks</a>
+          <a href="#">Documentation</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <div class="flex flex-col items-center mx-auto">
+      <img src="img/Section.png" alt="" />
+    </div>
+
+    <div class="max-w-6xl mx-auto px-6 py-12">
+      <!-- Heading -->
+      <h3 class="text-sm font-semibold text-gray-600 text-center">
+        WHAT WE DO?
+      </h3>
+      <h1 class="text-2xl font-bold text-center mb-16">
+        The service we offer is specifically designed to meet your needs
+      </h1>
+
+      <!-- Web Design Section -->
+      <div class="flex flex-col md:flex-row gap-16 mb-16">
+        <img
+          src="img/Figure → ui4.png.png"
+          alt="Web Design"
+          class="md:w-1/2 rounded-lg shadow-lg"
+        />
+        <div class="md:w-1/2">
+          <h3 class="text-3xl font-bold mb-6">Web Design</h3>
+          <p class="text-gray-600 mb-6">
+            Cum sociis onstage portfolios of margin, die portulent monies,
+            reservoir ridiculus max. Creu jante oedo, deplique ce facilitate in,
+            epistras eight quam. Proseer commodo curata megora rissa venta.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Aeneon quam ornare cuciburu blandit
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Nullam quiir risus eget uran molis ornare leo
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Eliam perte outrmed molis onstage ornare
+            </li>
+          </ul>
+          <!-- Button -->
+          <div class="text-left mt-6">
+            <button
+              class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all"
+            >
+              More Details
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t-2 border-gray-200 my-16"></div>
+
+      <!-- Mobile Development Section -->
+      <div class="flex flex-col md:flex-row-reverse gap-8 mb-16">
+        <img
+          src="img/Figure → ui1.png.png"
+          alt="Mobile Development"
+          class="md:w-1/2 rounded-lg shadow-lg"
+        />
+        <div class="md:w-1/2">
+          <h3 class="text-3xl font-bold mb-6">Mobile Development</h3>
+          <p class="text-gray-600 mb-6">
+            Cum sociis onstage portfolios of margin die portulent monies,
+            reservoir ridiculus max. Creu jante oedo, deplique ce facilitate in,
+            epistras eight quam. Proseer commodo curata megora rissa venta.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Aeneon quam ornare cuciburu blandit
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Nullam quiir risus eget uran molis ornare leo
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Eliam perte outrmed molis onstage ornare
+            </li>
+          </ul>
+          <!-- Button -->
+          <div class="text-left mt-6">
+            <button
+              class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all"
+            >
+              More Details
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t-2 border-gray-200 my-16"></div>
+
+      <!-- SEO Optimization Section -->
+      <div class="flex flex-col md:flex-row gap-8 mb-16">
+        <img
+          src="img/Figure → ui5.png.png"
+          alt="SEO Optimization"
+          class="md:w-1/2 rounded-lg shadow-lg"
+        />
+        <div class="md:w-1/2">
+          <h3 class="text-3xl font-bold mb-6">SEO Optimization</h3>
+          <p class="text-gray-600 mb-6">
+            Cum sociis onstage portfolios of margin die portulent monies,
+            reservoir ridiculus max. Creu jante oedo, deplique ce facilitate in,
+            epistras eight quam. Proseer commodo curata megora rissa venta.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Aeneon quam ornare cuciburu blandit
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Nullam quiir risus eget uran molis ornare leo
+            </li>
+            <li class="flex items-center">
+              <div class="w-2 h-2 bg-blue-500 mr-3 rounded-full"></div>
+              Eliam perte outrmed molis onstage ornare
+            </li>
+          </ul>
+          <!-- Button -->
+          <div class="text-left mt-6">
+            <button
+              class="bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition-all"
+            >
+              More Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Section -->
+    <section class="py-12 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4">
+        <div
+          class="aspect-w-16 aspect-h-9 bg-gray-300 rounded-lg overflow-hidden"
+        >
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/video-id"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-12 bg-white">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2 class="text-2xl font-bold mb-8">
+          Find out everything you need to know about creating a business process
+          model
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div>
+            <div class="w-16 h-16 mx-auto mb-2">
+              <img src="img/SVG (1).png" alt="" />
+            </div>
+            <h3 class="text-lg font-semibold">1. Collect Ideas</h3>
+            <p class="text-sm text-gray-600">
+              Etiam porta malesuada magna mollis euismod consectetur leo elit.
+            </p>
+          </div>
+          <div>
+            <div class="w-16 h-16 mx-auto mb-2">
+              <img src="img/SVG (2).png" alt="" />
+            </div>
+            <h3 class="text-lg font-semibold">2. Data Analysis</h3>
+            <p class="text-sm text-gray-600">
+              Etiam porta malesuada magna mollis euismod consectetur leo elit.
+            </p>
+          </div>
+          <div>
+            <div class="w-16 h-16 mx-auto mb-2">
+              <img src="img/SVG (3).png" alt="" />
+            </div>
+            <h3 class="text-lg font-semibold">3. Finalize Product</h3>
+            <p class="text-sm text-gray-600">
+              Etiam porta malesuada magna mollis euismod consectetur leo elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-12 bg-white">
+      <div class="max-w-7xl mx-auto px-4 text-left">
+        <h2 class="text-2xl text-center font-bold mb-6">
+          Check out some of our awesome projects with creative ideas and great
+          design
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <!-- Project Card -->
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd7.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Cras Fermentum Sem</h3>
+            <p class="text-sm t text-gray-600">Stationary</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd8.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Mollis Ipsum Mattis</h3>
+            <p class="text-sm text-gray-600">Magazine Book</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd9.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Ipsum Ultricies Cursus</h3>
+            <p class="text-sm text-gray-600">Packaging</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd10.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Inceptos Euismod Egestas</h3>
+            <p class="text-sm text-gray-600">Stationary, Branding</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd11.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Ipsum Mollis Vulputate</h3>
+            <p class="text-sm text-gray-600">Packaging</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg shadow">
+            <img
+              src="img/Figure → pd12.jpg.png"
+              alt="Project Image"
+              class="w-fit h-40 mx-auto mb-4"
+            />
+            <h3 class="text-lg font-semibold">Porta Ornare Cras</h3>
+            <p class="text-sm text-gray-600">Branding</p>
+          </div>
+        </div>
+        <div class="mt-8 text-center">
+          <button class="bg-blue-600 text-white px-6 py-2 rounded-md">
+            Start a Project
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="py-12 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="text-center mb-6">
+          <h2 class="text-2xl font-bold">Trusted by over 300+ clients</h2>
+          <p class="text-gray-600">
+            We bring solutions to make life easier for our customers.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4">
+          <!-- Client Logos -->
+          <img
+            src="img/Figure → z1.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z2.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z3.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z4.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z5.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z6.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z7.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+          <img
+            src="img/Figure → z8.png.png"
+            alt="Client Logo"
+            class="mx-auto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="py-12">
+      <div class="max-w-7xl mx-auto px-4">
+        <!-- Section: What Makes Us Different -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-16">
+          <div>
+            <img
+              src="img/pic.png"
+              alt="Working Team"
+              class="w-fit rounded-lg shadow-md"
+            />
+          </div>
+          <div>
+            <h2 class="text-2xl font-bold mb-4">
+              We make spending stress-free so you have the perfect control.
+            </h2>
+            <ul class="space-y-4">
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center mr-4"
+                  ><img src="img/SVG (4).png" alt=""
+                /></span>
+                <div>
+                  <h3 class="text-lg font-semibold">Creativity</h3>
+                  <p class="text-gray-600">
+                    Curabitur blandit lacus porttitor ridiculus mus.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center mr-4"
+                  ><img src="img/SVG (5).png" alt=""
+                /></span>
+                <div>
+                  <h3 class="text-lg font-semibold">Innovative Thinking</h3>
+                  <p class="text-gray-600">
+                    Curabitur blandit lacus porttitor ridiculus mus.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center mr-4"
+                  ><img src="img/SVG (6).png" alt=""
+                /></span>
+                <div>
+                  <h3 class="text-lg font-semibold">Rapid Solutions</h3>
+                  <p class="text-gray-600">
+                    Curabitur blandit lacus porttitor ridiculus mus.
+                  </p>
+                </div>
+              </li>
+              <li class="flex items-center">
+                <span class="w-8 h-8 flex items-center justify-center mr-4"
+                  ><img src="img/SVG (7).png" alt=""
+                /></span>
+                <div>
+                  <h3 class="text-lg font-semibold">Top-Notch Support</h3>
+                  <p class="text-gray-600">
+                    Curabitur blandit lacus porttitor ridiculus mus.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Section: Community Stats -->
+        <div class="text-center mb-16">
+          <h2 class="text-2xl font-bold mb-4">
+            We are trusted by over 5000+ clients.
+          </h2>
+          <p class="text-gray-600 mb-8">
+            Join them now and grow your business.
+          </p>
+          <div class="flex flex-wrap justify-center space-x-8">
+            <div>
+              <h3 class="text-3xl font-bold text-blue-500">1000+</h3>
+              <p class="text-gray-600">Completed Projects</p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold text-blue-500">50K+</h3>
+              <p class="text-gray-600">Happy Customers</p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold text-blue-500">4x</h3>
+              <p class="text-gray-600">Revenue Growth</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section: Community Image -->
+        <div class="text-center">
+          <img
+            src="img/Figure → about26.png.png"
+            alt="Community Members"
+            class="w-full max-w-4xl mx-auto"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300">
+      <div
+        class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-4 gap-8"
+      >
+        <div>
+          <!-- Logo -->
+          <div class="pt-2">
+            <img src="img/logo.png" alt="logo" />
+          </div>
+          <p class="mt-2 mb-1">© 2023 Sandbox.</p>
+          <p class="mt-2">All rights reserved.</p>
+          <div class="flex space-x-4 mt-4">
+            <a href="#"
+              ><i class="fa-brands fa-twitter" style="color: #fcfcfc"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-facebook-f" style="color: #f5f7f9"></i
+            ></a>
+
+            <a href="#"
+              ><i class="fa-brands fa-instagram" style="color: #f7f9fc"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-youtube" style="color: #f5f5f5"></i
+            ></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-white">Get in Touch</h3>
+          <p class="mt-2">Macinche St. 14105</p>
+          <p class="mt-2">Light City, London</p>
+          <p class="mt-2 mb-6">United Kingdom</p>
+          <p class="mb-1">info@email.com</p>
+          <p class="mt-2">00 (123) 456 78 90</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-white">Learn More</h3>
+          <p class="mt-2">About Us</p>
+          <p class="mt-2">Our Story</p>
+          <p class="mt-2">Projects</p>
+          <p class="mt-2">Terms of Use</p>
+          <p class="mt-2">Privacy Policy</p>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-white">Our Newsletter</h3>
+          <p class="mt-2">Subscribe to our newsletter to get our</p>
+          <p class="mt-2">news & deals delivered to you</p>
+          <!-- Email Form -->
+          <form class="mt-4">
+            <div class="max-w-md mx-auto md:mx-0">
+              <div class="mb-4">
+                <label class="block text-gray-700 text-left mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  class="w-full px-4 text-black py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <button
+                class="bg-blue-500 text-white py-3 px-8 rounded-lg hover:bg-blue-600 transition-all"
+              >
+                Join
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
