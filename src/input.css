@@ -2,6 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styling */
+.navbar {
+  transform: translateY(-100%);
+  transition: transform 1s ease-out;
+}
+
+/* Show navbar when page loads */
+.navbar.show {
+  transform: translateY(0);
+}
+
+/* Section Styling */
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Scroll to Top Button */
+/*#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#scrollTopBtn.show {
+  display: block;
+  opacity: 1;
+}*/
+
 /* Hamburger Menu */
 .hamburger {
   cursor: pointer;
